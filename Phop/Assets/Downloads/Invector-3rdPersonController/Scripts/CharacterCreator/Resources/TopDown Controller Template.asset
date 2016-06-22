@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afced7e5cfb87bc41a9e8d1729cfd726, type: 3}
+  m_Name: TopDown Controller Template
+  m_EditorClassIdentifier: 
+  templateType: 1
+  animatorController: {fileID: 9100000, guid: 2f58e1a7cdbc3204e9993a91619d4e78, type: 2}
+  cameraListData: {fileID: 11400000, guid: 77e476d6f5332c14fbf0525e160c60e6, type: 2}
+  hud: {fileID: 11498846, guid: 65d09cff7cef67d47a9d1f9a022f2d84, type: 2}

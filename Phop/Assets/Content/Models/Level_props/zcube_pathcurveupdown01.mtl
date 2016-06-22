@@ -1,0 +1,12 @@
+# Blender MTL File: 'MainBorg.blend'
+# Material Count: 1
+
+newmtl zcubepathcurvedown_MAT
+Ns 31.372549
+Ka 0.262745 0.262745 0.262745
+Kd 0.366657 0.364031 0.302915
+Ks 0.350000 0.350000 0.350000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2

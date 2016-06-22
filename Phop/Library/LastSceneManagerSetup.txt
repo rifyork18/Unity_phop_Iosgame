@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/Content/Scenes/phop_scene_setup001.unity
+  isLoaded: 1
+  isActive: 1

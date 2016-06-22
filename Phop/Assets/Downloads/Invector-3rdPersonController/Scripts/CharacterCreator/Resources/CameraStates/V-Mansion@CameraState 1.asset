@@ -1,0 +1,183 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7592ac57a97621844bb7d05b6822c040, type: 3}
+  m_Name: V-Mansion@CameraState 1
+  m_EditorClassIdentifier: 
+  Name: 
+  tpCameraStates:
+  - Name: Default
+    forward: -1
+    right: 0
+    defaultDistance: 2.5
+    maxDistance: 8
+    minDistance: 0.6
+    height: 0.2
+    smoothFollow: 10
+    yMinLimit: -40
+    yMaxLimit: 80
+    xMinLimit: -360
+    xMaxLimit: 360
+    rotationOffSet: {x: 0, y: 0, z: 0}
+    cullingHeight: 0.1
+    cullingMinDist: 0.01
+    useZoom: 0
+    fixedAngle: {x: 11, y: -46}
+    lookPoints: []
+    cameraMode: 0
+  - Name: Crouch
+    forward: -1
+    right: 0.13
+    defaultDistance: 2
+    maxDistance: 6.55
+    minDistance: 0.5
+    height: -0.3
+    smoothFollow: 5
+    yMinLimit: -40
+    yMaxLimit: 80
+    xMinLimit: -360
+    xMaxLimit: 360
+    rotationOffSet: {x: 0, y: 0, z: 0}
+    cullingHeight: 0
+    cullingMinDist: 0.1
+    useZoom: 0
+    fixedAngle: {x: 0, y: 0}
+    lookPoints: []
+    cameraMode: 0
+  - Name: Strafing
+    forward: -1
+    right: 0
+    defaultDistance: 3
+    maxDistance: 1.5
+    minDistance: 0.25
+    height: 0.6
+    smoothFollow: 10
+    yMinLimit: -40
+    yMaxLimit: 80
+    xMinLimit: -360
+    xMaxLimit: 360
+    rotationOffSet: {x: 0, y: 0, z: 0}
+    cullingHeight: 0.85
+    cullingMinDist: 0.1
+    useZoom: 0
+    fixedAngle: {x: 0, y: 0}
+    lookPoints: []
+    cameraMode: 0
+  - Name: Mansion
+    forward: -1
+    right: 0
+    defaultDistance: 1.5
+    maxDistance: 3
+    minDistance: 0.5
+    height: 0
+    smoothFollow: 2
+    yMinLimit: -40
+    yMaxLimit: 80
+    xMinLimit: -360
+    xMaxLimit: 360
+    rotationOffSet: {x: 0, y: 0, z: 0}
+    cullingHeight: 1
+    cullingMinDist: 0.1
+    useZoom: 0
+    fixedAngle: {x: 0, y: 0}
+    lookPoints:
+    - pointName: point_01
+      positionPoint: {x: 14.146, y: 8.204208, z: 2.8886805}
+      eulerAngle: {x: -0, y: 0, z: 0}
+      freeRotation: 0
+    - pointName: point_02
+      positionPoint: {x: 8.172314, y: 5.9992113, z: 3.5368514}
+      eulerAngle: {x: -0, y: 198.51631, z: 0}
+      freeRotation: 0
+    - pointName: point_03
+      positionPoint: {x: 4.67, y: 6.57, z: -2.6}
+      eulerAngle: {x: -0, y: 0, z: 0}
+      freeRotation: 0
+    - pointName: point_04
+      positionPoint: {x: 22.757, y: 6.719, z: 5.269}
+      eulerAngle: {x: -0, y: 209.45876, z: 0}
+      freeRotation: 0
+    - pointName: point_05
+      positionPoint: {x: 34.20853, y: 9.472624, z: -9.047599}
+      eulerAngle: {x: -0, y: 0, z: 0}
+      freeRotation: 0
+    - pointName: point_06
+      positionPoint: {x: -21.56, y: 4.068, z: 2.243}
+      eulerAngle: {x: -0, y: 0, z: 0}
+      freeRotation: 0
+    - pointName: point_07
+      positionPoint: {x: -5.673367, y: 3.09, z: 5.3004704}
+      eulerAngle: {x: 14.755234, y: 233.5711, z: 349.5581}
+      freeRotation: 1
+    - pointName: point_08
+      positionPoint: {x: -33.4775, y: 3.72, z: -4.102639}
+      eulerAngle: {x: -0, y: 0, z: 0}
+      freeRotation: 0
+    - pointName: point_09
+      positionPoint: {x: -34.56443, y: 3.486868, z: 4.6361637}
+      eulerAngle: {x: 17.519388, y: 97.4252, z: 0.00011012216}
+      freeRotation: 0
+    - pointName: point_10
+      positionPoint: {x: -31.749863, y: 3.1190598, z: 3.7586427}
+      eulerAngle: {x: 12.548398, y: 11.174042, z: 0.0002051094}
+      freeRotation: 0
+    - pointName: point_11
+      positionPoint: {x: -12.86, y: 3.7633832, z: 3.4707785}
+      eulerAngle: {x: 25.348848, y: 289.19208, z: 342.48846}
+      freeRotation: 1
+    - pointName: point_12
+      positionPoint: {x: -12.311035, y: 4.0475674, z: 8.491669}
+      eulerAngle: {x: 30.080446, y: 271.61493, z: 0.00016970444}
+      freeRotation: 0
+    - pointName: point_13
+      positionPoint: {x: -23.006998, y: 6.3301888, z: 23.439526}
+      eulerAngle: {x: 14.954397, y: 179.41527, z: 0.00015299805}
+      freeRotation: 0
+    - pointName: point_14
+      positionPoint: {x: 27.87697, y: 3.753189, z: 5.2433653}
+      eulerAngle: {x: 22.001825, y: 228.95076, z: 0.000101292}
+      freeRotation: 0
+    - pointName: point_15
+      positionPoint: {x: 28.149746, y: 3.66, z: -6.2073193}
+      eulerAngle: {x: 23.966513, y: 305.55447, z: 0.00006820599}
+      freeRotation: 0
+    - pointName: point_16
+      positionPoint: {x: -9.672571, y: 8, z: 5.448}
+      eulerAngle: {x: 19.423573, y: 180.75427, z: 0.00009030346}
+      freeRotation: 0
+    - pointName: point_17
+      positionPoint: {x: -21.502281, y: 8.87973, z: -9.594477}
+      eulerAngle: {x: 19.595444, y: 0.20458311, z: 0.00010839725}
+      freeRotation: 1
+    - pointName: point_18
+      positionPoint: {x: -5.702049, y: 8.89, z: -7.3045893}
+      eulerAngle: {x: 24.408268, y: 314.9304, z: 15.43402}
+      freeRotation: 1
+    - pointName: point_19
+      positionPoint: {x: -20.235802, y: 9.405738, z: 12.503068}
+      eulerAngle: {x: 20.970568, y: 145.1418, z: 0.00029304443}
+      freeRotation: 0
+    - pointName: point_20
+      positionPoint: {x: -31.09388, y: 6.898118, z: -5.900264}
+      eulerAngle: {x: 14.439027, y: 9.694464, z: 0.00038515814}
+      freeRotation: 1
+    - pointName: point_21
+      positionPoint: {x: -33.31, y: 7.54, z: 3.56}
+      eulerAngle: {x: 16.673576, y: 32.899338, z: 0.00040596264}
+      freeRotation: 0
+    - pointName: point_22
+      positionPoint: {x: 19.486166, y: 12.220781, z: -32.30868}
+      eulerAngle: {x: 12.892121, y: 340.68198, z: 0.0001534931}
+      freeRotation: 1
+    - pointName: point_23
+      positionPoint: {x: 11.600067, y: 3.8889756, z: 3.523305}
+      eulerAngle: {x: 14.439146, y: 256.59323, z: 0.00030768587}
+      freeRotation: 0
+    cameraMode: 2

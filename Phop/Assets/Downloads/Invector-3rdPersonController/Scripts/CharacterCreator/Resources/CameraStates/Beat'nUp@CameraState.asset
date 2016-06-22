@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7592ac57a97621844bb7d05b6822c040, type: 3}
+  m_Name: Beat'nUp@CameraState
+  m_EditorClassIdentifier: 
+  Name: 
+  tpCameraStates:
+  - Name: Default
+    forward: -1
+    right: 0
+    defaultDistance: 8
+    maxDistance: 8
+    minDistance: 0.6
+    height: 0
+    smoothFollow: 2
+    yMinLimit: -40
+    yMaxLimit: 80
+    xMinLimit: -360
+    xMaxLimit: 360
+    rotationOffSet: {x: 0, y: 0, z: 0}
+    cullingHeight: 0.85
+    cullingMinDist: 0.01
+    useZoom: 0
+    fixedAngle: {x: 0, y: 25}
+    lookPoints: []
+    cameraMode: 1
+  - Name: Crouch
+    forward: -1
+    right: 0.2
+    defaultDistance: 3
+    maxDistance: 1.5
+    minDistance: 0.5
+    height: -0.6
+    smoothFollow: 5
+    yMinLimit: -40
+    yMaxLimit: 80
+    xMinLimit: -360
+    xMaxLimit: 360
+    rotationOffSet: {x: 0, y: 0, z: 0}
+    cullingHeight: -0.1
+    cullingMinDist: 0.1
+    useZoom: 0
+    fixedAngle: {x: 0, y: 0}
+    lookPoints: []
+    cameraMode: 1
+  - Name: Aim
+    forward: -1
+    right: 0.45
+    defaultDistance: 1.15
+    maxDistance: 1.5
+    minDistance: 0.25
+    height: 0.4
+    smoothFollow: 10
+    yMinLimit: -40
+    yMaxLimit: 80
+    xMinLimit: -360
+    xMaxLimit: 360
+    rotationOffSet: {x: 0, y: 0, z: 0}
+    cullingHeight: 0.85
+    cullingMinDist: 0.1
+    useZoom: 0
+    fixedAngle: {x: 0, y: 0}
+    lookPoints: []
+    cameraMode: 0

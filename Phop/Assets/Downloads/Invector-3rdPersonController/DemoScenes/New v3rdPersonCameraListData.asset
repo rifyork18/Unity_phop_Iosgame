@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7592ac57a97621844bb7d05b6822c040, type: 3}
+  m_Name: New v3rdPersonCameraListData
+  m_EditorClassIdentifier: 
+  Name: 
+  tpCameraStates:
+  - Name: Default
+    forward: -1
+    right: 0.35
+    defaultDistance: 1.5
+    maxDistance: 3
+    minDistance: 0.5
+    height: 1.5
+    smoothFollow: 10
+    yMinLimit: -40
+    yMaxLimit: 80
+    xMinLimit: -360
+    xMaxLimit: 360
+    rotationOffSet: {x: 0, y: 0, z: 0}
+    cullingHeight: 1
+    cullingMinDist: 0.1
+    useZoom: 0
+    fixedAngle: {x: 0, y: 0}
+    lookPoints: []
+    cameraMode: 0
